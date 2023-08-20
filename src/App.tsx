@@ -1,21 +1,11 @@
-import React from "react";
-
-const App: React.FC = () => (
-  <div className="App">
-    <header className="App-header">
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Boiler Plate
-      </a>
-    </header>
-  </div>
-);
+function App() {
+  return (
+    <>
+      <div className="flex h-screen justify-center items-center">
+        <p className="">React Boilerplate</p>
+      </div>
+    </>
+  );
+}
 
 export default App;
